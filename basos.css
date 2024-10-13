@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #16423C;
+    color: white;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 50px;
+}
+
+.container img {
+    align-items: center; 
+    max-width: 800px;
+    height: 600px;
+}
+
+.container .description {
+    margin-left: 100px;
+}
+
+.container .description h1 {
+    font-size: 36px;
+}
+
+.container .description p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.container .description .cta {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button {
+    background-color: #16423C; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Memberi jarak dari teks sebelumnya */
+}
+
+.back-button:hover {
+    background-color: #16423C; /* Warna tombol saat di-hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color :white;
+    background-color: #16423C;
+}

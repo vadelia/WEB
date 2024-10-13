@@ -1,0 +1,129 @@
+/* Mengatur background dari halaman */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    height: 525px;
+}
+
+/* Gaya utama untuk section */
+section.main {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 11000px;
+    margin: 0 auto;
+    
+}
+
+/* Judul tabel */
+.judul {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; /* Menebalkan judul */
+    margin-bottom: 20px;
+}
+
+/* Gaya tombol untuk aksi dan tambah */
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Mengatur posisi tombol tambah di bawah tabel */
+.tombol-bawah {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.tombol-bawah .tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tombol-bawah .tombol:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur tampilan tabel */
+table.table {
+    width: 100%;
+    border-collapse: separate; /* Memisahkan sel untuk radius */
+    border-spacing: 0 10px; /* Jarak antar baris dikurangi */
+    margin-bottom: 50px;
+    text-align: center; /* Merapikan teks ke kiri */
+}
+
+/* Gaya untuk sel tabel */
+table tbody tr td {
+    padding: 10px; /* Atur jarak di dalam sel dikurangi */
+    border-radius: 10px; /* Mengurangi sudut sel */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Border halus */
+    vertical-align: middle; /* Memastikan konten rata tengah secara vertikal */
+}
+
+/* Gaya header tabel */
+table thead th {
+    padding: 15px;
+    text-align: center; /* Judul kolom di tengah */
+    background-color: #16423C;
+    font-weight: bold;
+    color:  #f0f0f0;
+}
+
+/* Gaya tombol aksi (Lihat, Edit, Hapus) */
+.tombol.view {
+    background-color: #2196F3;
+    color: white;
+    padding: 5px 15px; /* Sesuaikan padding */
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.tombol.edit {
+    background-color: #FF9800;
+    color: white;
+    padding: 5px 15px; /* Sesuaikan padding */
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.tombol.hapus {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 15px; /* Sesuaikan padding */
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+/* Hover efek untuk tombol */
+.tombol.view:hover {
+    background-color: #0b7dda;
+}
+
+.tombol.edit:hover {
+    background-color: #e68a00;
+}
+
+.tombol.hapus:hover {
+    background-color: #d32f2f;
+}
+
+footer {
+    background-color: #16423C;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }

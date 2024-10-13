@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    }
+    /* Mengatur font yang dipakai dan background halaman */
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #16423C;
+    }
+    /* Membuat Container menjadi layout flexbox dan kotak login di tengah */
+    .container{
+    display: flex;
+    flex-basis: wrap;
+    justify-content: center;
+    }
+    
+    /* Mengatur kotak form login lebar 400px dan background putih */
+    .login-box{
+    margin-top: 150px;
+    flex-basis: 400px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    }
+    /* Mengatur judul form dengan border bawah dan posisi di tengah */
+    .login-box h2{
+    border-bottom: 1px solid #ccc;
+    color: #555;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0px 0px 20px;
+    }
+    /* Mengatur agar tag input dan select memenuhi container dan tampilan lebih bagus */
+    input, select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    }
+    /* Mengatur tampilan tombol submit */
+    input[type=submit]{
+    background-color: #16423C;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .back-button {
+        background-color: #16423C; 
+        color: white; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px; /* Memberi jarak dari teks sebelumnya */
+    }
+    
+    .back-button:hover {
+        background-color: #16423C; /* Warna tombol saat di-hover */
+    }
+
+    
